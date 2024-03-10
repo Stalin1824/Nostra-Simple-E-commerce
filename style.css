@@ -513,32 +513,35 @@ font-size:7.2px;
   padding:10px 20px;
 }
 /* Collections */
+.container{
+  padding-left:15px;
+  padding-right: 15px;
+}
+
 
 .divide-section{
   display: flex;
-  margin-left:5px
 }
 
 .filter-section{
   flex-basis: 25%;
   position: relative;
   font-size: 2vw;
-   
 }
 
 .product-section{
   flex-basis: 75%;
   position: relative;
-  right:16px ;
 }
 
 .vertical-line {
- border-left: 3px solid #1D232C; 
-  height: 100%; 
-  margin: 0 20px; 
+  border: none;
+  border-left: 3px solid #1D232C; /* Adjust color and width as needed */
+  height: 100%; /* Adjust height as needed */
+  margin: 0 20px; /* Adjust margin as needed */
   position: absolute;
   top: 0px;
-  right: 0px;
+  right: 0px
   
 }
 
@@ -552,13 +555,14 @@ font-size:7.2px;
   padding: 10px;
 }
 
- .products{
+.products{
   margin-top: 2vw;
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-size:1vw;
 }
+
 .navbar-search {
   border: solid #1D232C 1px;
   border-radius: 10px;
@@ -592,7 +596,7 @@ font-size:7.2px;
 }
 .slider-left-button{
    position:absolute;
-   z-index: 20;
+   z-index: 2;
    left: 5%;
    top: 35%;
 }
@@ -601,7 +605,7 @@ font-size:7.2px;
 }
 .slider-right-button{
   position: absolute;
-  z-index: 20;
+  z-index: 2;
   top: 35%;
   right: 5%;
 }
@@ -618,4 +622,6 @@ font-size:7.2px;
 .slide-overlappingcontent h1{
   font-size: 5vw;
 }
-
+@media screen and (max-width:600px){
+   
+}
