@@ -252,7 +252,7 @@ margin-top:50px; padding-left: 15px;
   .img{
     width: 78px;
     height: 85px;
-     margin-left:15px;
+     margin-left:-8px;
   }
   .overlapping button{
    width: 42.5px;
@@ -522,6 +522,7 @@ font-size:7.2px;
   flex-basis: 25%;
   position: relative;
   font-size: 2vw;
+  padding-left: 15px;
 }
 
 .product-section{
