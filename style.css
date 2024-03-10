@@ -516,7 +516,7 @@ font-size:7.2px;
 
 .divide-section{
   display: flex;
-  margin-left: 9px;
+  margin-left:5px
 }
 
 .filter-section{
@@ -529,6 +529,7 @@ font-size:7.2px;
 .product-section{
   flex-basis: 75%;
   position: relative;
+  right:16px ;
 }
 
 .vertical-line {
