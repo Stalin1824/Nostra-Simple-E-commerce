@@ -516,13 +516,14 @@ font-size:7.2px;
 
 .divide-section{
   display: flex;
+  margin-left: 9px;
 }
 
 .filter-section{
   flex-basis: 25%;
   position: relative;
   font-size: 2vw;
-  padding-left: 15px;
+   
 }
 
 .product-section{
